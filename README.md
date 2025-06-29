@@ -1,4 +1,4 @@
-#Real-Time Keylogger Detection and Notification System
+# Real-Time Keylogger Detection and Notification System
 
 🔒 A cutting-edge cybersecurity solution blending AI, machine learning, and blockchain to detect and alert users about keylogger threats in real time.
 📋 OverviewThe Real-Time Keylogger Detection and Notification System is an advanced, scalable cybersecurity platform that leverages machine learning, deep learning (LSTM), and blockchain technology to identify keylogger activities instantly. It monitors system metrics like CPU load, memory usage, typing speed, and network traffic to detect suspicious behavior.
