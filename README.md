@@ -1,69 +1,57 @@
-Real-Time Keylogger Detection and Notification System
+#Real-Time Keylogger Detection and Notification System
+
 🔒 A cutting-edge cybersecurity solution blending AI, machine learning, and blockchain to detect and alert users about keylogger threats in real time.
 📋 OverviewThe Real-Time Keylogger Detection and Notification System is an advanced, scalable cybersecurity platform that leverages machine learning, deep learning (LSTM), and blockchain technology to identify keylogger activities instantly. It monitors system metrics like CPU load, memory usage, typing speed, and network traffic to detect suspicious behavior.
-Key Components:  
 
-Instant monitoring and alert system  
-Behavior-driven anomaly detection using AI  
-Secure, unalterable audit logs via blockchain  
-Privacy-preserving federated learning
+**Key Components:  **
 
-🌟 Features🧠 AI Algorithms: Logistic Regression, Random Forest, LSTM🔄 Federated Learning: Local model training with global aggregation🔗 Blockchain Records: Immutable logging of events using SHA-256⚡ Instant Detection: Identifies keyloggers through system metrics📈 Visual Insights: Charts, confusion matrices, and ROC curves🔐 Privacy-First: Keeps sensitive data on local devices  
-🛠️ Technology Stack  
+1.Instant monitoring and alert system  
+2.Behavior-driven anomaly detection using AI  
+3.Secure, unalterable audit logs via blockchain  
+4.Privacy-preserving federated learning
 
-
-
-Component
-Technology
-
-
-
-Programming Language
-Python
+**🌟 Features🧠 AI Algorithms:**
+Logistic Regression, Random Forest, LSTM
+Federated Learning: Local model training with global aggregation
+Blockchain Records: Immutable logging of events using SHA-256 
+Instant Detection: Identifies keyloggers through system metrics
+Visual Insights: Charts, confusion matrices, and ROC curves
+Privacy-First: Keeps sensitive data on local devices  
+Technology Stack  
 
 
-ML/DL Frameworks
-scikit-learn, TensorFlow
+**Component Technology**
 
 
-Data Normalization
-MinMaxScaler, StandardScaler
+1.Programming Language Python
+2.ML/DL Frameworks scikit-learn, TensorFlow
+3.Data Normalization    MinMaxScaler, StandardScaler
+4.Blockchain  Custom private blockchain (Python)
+5.Visualization Matplotlib, Seaborn
+6.Real-Time Monitoring psutil library
 
 
-Blockchain
-Custom private blockchain (Python)
-
-
-Visualization
-Matplotlib, Seaborn
-
-
-Real-Time Monitoring
-psutil library
-
-
-📊 Model Performance  
+**📊 Model Performance**
 
 
  
-Model              Random Forest         Logistic Regression        LSTM
-Accuracy            89.8%                       85%                  87.2%
-Precision           91%                         85%                  88%
-Recall              90%                         83%                  89%
-F1 Score            90%                         84%                  88%
+Model         |    Random Forest         Logistic Regression        LSTM
+Accuracy      |     89.8%                       85%                  87.2%
+Precision     |     91%                         85%                  88%
+Recall        |     90%                         83%                  89%
+F1 Score      |     90%                         84%                  88%
 
 
 📉 Insights: LSTM excels at capturing time-based patterns; Random Forest is the fastest.  
 🧩 System Design  
 Data Creation  
 
-# Generates synthetic data (CPU, memory, keystrokes, network)  
+**Generates synthetic data (CPU, memory, keystrokes, network) **
 Labeled using rule-based heuristics
 
-Preprocessing  
+**Preprocessing  **
 
-Applies MinMax scaling  
-Formats data into 3D arrays for LSTM
+Applies MinMax scaling  Formats data into 3D arrays for LSTM
 
 Model Training  
 
