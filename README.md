@@ -49,7 +49,7 @@ Data Creation
 **Generates synthetic data (CPU, memory, keystrokes, network)**
 Labeled using rule-based heuristics
 
-**Preprocessing **
+**Preprocessing**
 
 Applies MinMax scaling  Formats data into 3D arrays for LSTM
 
@@ -58,12 +58,12 @@ Applies MinMax scaling  Formats data into 3D arrays for LSTM
 Local training on devices via federated learning  
 Models evaluated with trust scores based on accuracy
 
-**Blockchain Integration ** 
+**Blockchain Integration** 
 
 Logs model updates and detection events in secure blocks  
 Ensures tamper-proof records with SHA-256 hashing
 
-**Detection & Notifications ** 
+**Detection & Notifications** 
 
 Real-time predictions using LSTM  
 Alerts triggered for suspicious patterns
