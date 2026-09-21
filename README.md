@@ -46,7 +46,7 @@ F1 Score      |     90%                         84%                  88%
 🧩 System Design  
 Data Creation  
 
-**Generates synthetic data (CPU, memory, keystrokes, network) **
+**Generates synthetic data (CPU, memory, keystrokes, network)**
 Labeled using rule-based heuristics
 
 **Preprocessing **
